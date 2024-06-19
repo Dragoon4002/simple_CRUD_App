@@ -18,7 +18,7 @@ app.listen(3000, ()=>{
 });
 
 // app.get('/',(req,res)=>{
-// res.send("PornHub not working, too many Dipan fans there. Dipan er choto bichi");
+// res.send("This is the WebSite Part");
 // });
 
 // //add element in database
@@ -93,10 +93,10 @@ app.listen(3000, ()=>{
 
 mongoose.connect("mongodb+srv://serverside:serverside2323@practice.ubbd6cn.mongodb.net/Node-API?retryWrites=true&w=majority&appName=Practice")
 .then(()=>{
-    console.log("Done baby");
+    console.log("Database Connected Successfully");
 })
 .catch(()=>{
-    console.log("Fuck baby didnt worked");
+    console.log("Server Not Connected. Here is the reason:-");
     console.log(Error);
 });
 
